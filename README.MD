@@ -55,7 +55,8 @@ prisma/
 
    ```bash
    DATABASE_URL="your-database-url"
-   JWT_SECRET="your-jwt-secret"
+   JWT_ACCESS_SECRET="your-jwt-access-secret"
+   JWT_REFRESH_SECRET="your-jwt-refresh-secret"
    ```
 
 5. **Jalankan Aplikasi:**
@@ -64,7 +65,7 @@ prisma/
    npm run dev
    ```
 
-   Aplikasi akan berjalan pada `http://localhost:3000`.
+   Aplikasi akan berjalan pada `http://localhost:8000`.
 
 ## Endpoints API
 
